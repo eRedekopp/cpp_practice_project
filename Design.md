@@ -140,3 +140,7 @@ Information about the patients and doctors in a ward, and which beds are populat
 
 Contains information about the state of the program and ways to modify it. The main driver code for actually doing
 everything lives here. This program doesn't merit an MVC but you can think of this as the model, view, and controller
+
+## Save File Format
+
+/*todo*/
