@@ -6,6 +6,8 @@ The purpose of this project is to learn the basics of c++, and to use good pract
 This project will be thoroughly designed before writing any C code.
 Features will be added in git branches and only merged into master when complete.
 Time will be tracked as accurately as reasonably possible.
+Unit tests will be implemented for all applicable functions, and run automatically in the Makefile for each file after each 
+time the file is recompiled.
 
 This project implements a fake hospital management software system, with basic features for storing information about doctors
 and patients.
