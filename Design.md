@@ -7,8 +7,9 @@ and use good practices while doing it.
 This system will be designed before writing any code
 and will be thoroughly tested.
 
-This project implements a fake hospital management software system, with basic features for storing information about doctors
-and patients.
+This project implements a fake hospital management software system, 
+with basic features for storing information about doctors and patients.
+This project was inspired by one of my CMPT270 (OOP) assignments.
 
 ## Features
 
@@ -57,8 +58,11 @@ Upon entering a patient's ID number:
 - Bed #
 - Symptoms
 - Heart rate
+- Temperature
 - Diagnosis
 - Doctors
+
+Symptoms, heart rate, and temperature will be grouped together into a structure
 
 'list' does the same as 'view bed assignments'
 
