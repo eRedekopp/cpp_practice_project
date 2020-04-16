@@ -1,7 +1,7 @@
 // The doctor class
 
-#include <list>
-#include "patient.h"
+#include <vector>
+#include "patient.hpp"
 
 using namespace std;
 
@@ -11,5 +11,5 @@ public:
 
 private:
 
-    list<Patient> lst;
+    vector<Patient> patients;
 };
