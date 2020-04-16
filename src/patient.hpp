@@ -1,6 +1,7 @@
 // Header file for patient class, and some related structs and macros
 
-class Patient;
+#ifndef PATIENT_H
+#define PATIENT_H
 
 #include <vector>
 #include <string>
@@ -38,8 +39,8 @@ private:
     // patient is created
     int id;
 
-    // The ward in which this patient is staying
-    Ward ward;
+    // The ID of the ward in which this patient is staying
+    int ward;
 
     // The patient's bed number
     int bed_id;
@@ -56,7 +57,7 @@ public:
     // Getters for private fields
     string get_name();
     int get_id();
-    Ward get_ward();
+    int get_ward();
     int get_bed();
     struct symptoms get_symptoms();
 
@@ -100,3 +101,5 @@ public:
     // the ID was not in the list
     bool rem_doctor(int doc_id);
 };
+
+#endif // PATIENT_H

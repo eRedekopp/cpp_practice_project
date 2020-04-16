@@ -13,19 +13,19 @@ string Patient::get_name() {
     return name;
 }
 
-int get_id() {
+int Patient::get_id() {
     return id;
 }
 
-Ward get_ward() {
+int Patient::get_ward() {
     return ward;
 }
 
-int get_bed() {
+int Patient::get_bed() {
     return bed_id;
 }
 
-struct symptoms get_symptoms() {
-	
+struct symptoms Patient::get_symptoms() {
+    return {};
 }
 

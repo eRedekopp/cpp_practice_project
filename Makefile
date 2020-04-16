@@ -6,19 +6,24 @@ S=src
 B=build
 
 CC=g++
-CFLAGS = -Wall -Wextra -Werror -pedantic --std=gnu++11
+CFLAGS = -Wall -Wextra -Werror -pedantic --std=gnu++11 -g
 
-OBJS =\
-	$(B)/control.o
+OBJS =  $(B)/control.o\
+	$(B)/doctor.o\
+	$(B)/patient.o\
+	$(B)/ward.o\
 
-.PHONY = all clean
+.PHONY = all clean run
 
-all: executable
+all: $(B)/App
+
+run: $(B)/App
+	$(B)/App
 
 clean:
 	rm -f $(B)/*
 
-executable: $(OBJS)
+$(B)/App: $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) -o $(B)/App
 
 $(OBJS) : $(B)/%.o : $(S)/%.cpp $(B)
