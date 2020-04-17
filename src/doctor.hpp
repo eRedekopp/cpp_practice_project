@@ -17,8 +17,8 @@ private:
     // The doctor's name
     string name;
 
-    // The doctor's ID number. This never changes after the doctor is created
-    int id;
+    // The doctor's ID number
+    const int id;
 
     // The IDs of the ward that this doctor works in
     vector<int> wards;
@@ -64,6 +64,9 @@ public:
     // Returns true if the patient was successfully removed, or false
     // if they were not found in the list.
     bool rem_patient(int patient_id);
+
+    // Get this doctor's specialty. This must be implemented by subclasses
+    virtual string get_specialty();
 
 };
 

@@ -35,9 +35,8 @@ private:
     // The patient's name
     string name;
 
-    // The patient's integer ID number. This never changes after the
-    // patient is created
-    int id;
+    // The patient's integer ID number
+    const int id;
 
     // The ID of the ward in which this patient is staying
     int ward;

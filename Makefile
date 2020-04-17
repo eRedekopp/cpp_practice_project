@@ -12,6 +12,8 @@ OBJS =  $(B)/control.o\
 	$(B)/doctor.o\
 	$(B)/patient.o\
 	$(B)/ward.o\
+	$(B)/surgeon.o\
+	$(B)/gp.o\
 
 .PHONY = clean run
 
