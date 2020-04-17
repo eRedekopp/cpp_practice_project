@@ -2,15 +2,14 @@
 
 ## About
 
-The purpose of this project is to learn the basics of c++, and to use good practices while writing it.
-This project will be thoroughly designed before writing any code.
-Features will be added in git branches and only merged into master when complete.
-Time will be tracked as accurately as reasonably possible.
-Unit tests will be implemented for all applicable functions, and run automatically in the Makefile for each file after each 
-time the file is recompiled.
+The purpose of this project is to learn the basics of c++,
+and use good practices while doing it.
+This system will be designed before writing any code
+and will be thoroughly tested.
 
-This project implements a fake hospital management software system, with basic features for storing information about doctors
-and patients.
+This project implements a fake hospital management software system, 
+with basic features for storing information about doctors and patients.
+This project was inspired by one of my CMPT270 (OOP) assignments.
 
 ## Features
 
@@ -59,8 +58,11 @@ Upon entering a patient's ID number:
 - Bed #
 - Symptoms
 - Heart rate
+- Temperature
 - Diagnosis
 - Doctors
+
+Symptoms, heart rate, and temperature will be grouped together into a structure
 
 'list' does the same as 'view bed assignments'
 
