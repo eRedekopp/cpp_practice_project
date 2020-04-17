@@ -2,11 +2,7 @@
 
 ## About
 
-The purpose of this project is to learn the basics of c++,
-and use good practices while doing it.
-This system will be designed before writing any code
-and will be thoroughly tested.
-
+The purpose of this project is to learn the basics of c++.
 This project implements a fake hospital management software system, 
 with basic features for storing information about doctors and patients.
 This project was inspired by one of my CMPT270 (OOP) assignments.
