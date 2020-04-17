@@ -10,7 +10,8 @@
 
 using namespace std;
 
-class Ward {
+class Ward
+{
     
 private:
 

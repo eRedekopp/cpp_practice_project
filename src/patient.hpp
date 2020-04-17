@@ -13,8 +13,8 @@ using namespace std;
 
 // A structure to describe a patient's symptoms and other information
 // about their health's current state.
-struct symptoms {
-
+struct symptoms
+{
     // The patient's symptoms
     vector<string> symptoms;
 
@@ -28,7 +28,8 @@ struct symptoms {
 };
 
 // A structure representing a single patient in the hospital
-class Patient {
+class Patient
+{
 
 private:
 

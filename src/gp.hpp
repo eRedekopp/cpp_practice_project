@@ -7,7 +7,8 @@
 
 using namespace std;
 
-class GP: public Doctor {
+class GP: public Doctor
+{
 
 public:
 

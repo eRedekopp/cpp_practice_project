@@ -10,7 +10,8 @@
 using namespace std;
 
 
-class Doctor {
+class Doctor
+{
     
 private:
 
