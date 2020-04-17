@@ -20,6 +20,14 @@ public:
     
 private:
 
+    // Allocate an ID number. Since there is no overlap between ID
+    // numbers of patients and doctors in wards, we just allocate them
+    // universally for both doctors and patients
+    unsigned int alloc_id()
+    {
+	// TODO
+    }
+
     void menu_introloop()
     {
 	// TODO
