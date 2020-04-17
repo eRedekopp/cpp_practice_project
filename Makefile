@@ -13,18 +13,16 @@ OBJS =  $(B)/control.o\
 	$(B)/patient.o\
 	$(B)/ward.o\
 
-.PHONY = all clean run
+.PHONY = clean run
 
-all: $(B)/App
+$(B)/App: $(OBJS)
+	$(CC) $(CFLAGS) $(OBJS) -o $(B)/App
 
 run: $(B)/App
 	$(B)/App
 
 clean:
 	rm -f $(B)/*
-
-$(B)/App: $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o $(B)/App
 
 $(OBJS) : $(B)/%.o : $(S)/%.cpp $(B)
 	$(CC) $(CFLAGS) -c $< -o $@
