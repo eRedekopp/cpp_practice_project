@@ -29,6 +29,8 @@ private:
 
 public:
 
+    Doctor(string name, int id);
+
     // Getters for private fields
     string get_name();
     int get_id();
